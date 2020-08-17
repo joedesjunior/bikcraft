@@ -1,0 +1,45 @@
+@import url('./global.css'); 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header.header_container {
+  width: 100%;
+  background: var(--color-header);
+  position: fixed;
+  top: 0;
+}
+
+header.header_container div a {
+  padding: 15px 0;
+}
+
+header.header_container div nav {
+  display: inline-block;
+}
+
+header.header_container div nav.header-items {
+  text-align: right;
+}
+
+header.header_container div nav.header-items ul li {
+  display: inline-block;
+  margin-left: 1.8em;
+  margin-top: 23px;
+}
+
+header.header_container div nav.header-items ul li a {
+  font-size: 0.875rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  color: var(--color-letter);
+  transition: all .3s ease;
+}
+
+header.header_container div nav.header-items ul li a:hover {
+  color: #fff;
+}
