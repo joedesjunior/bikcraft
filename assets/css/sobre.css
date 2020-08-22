@@ -1,0 +1,134 @@
+@import url('./styles.css');
+
+
+.section_sobre {
+  background: url('../img/bg-sobre.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.section_sobre h1 {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 50px;
+}
+
+.section_sobre p {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  font-style: italic;
+  letter-spacing: 0.4px;
+  color: #fff;
+}
+
+.section_sobre p:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 5px auto;
+}
+
+section.section_history {
+  width: 100%;
+  margin-top: 60px;
+}
+
+section.section_history .hmv {
+  margin-right: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+section.section_history .hmv h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin: 0 auto;
+  opacity: 80%;
+}
+
+section.section_history .hmv h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(8, 8, 8);
+  margin: 15px 0 15px 0;
+}
+
+section.section_history .hmv p {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: normal;
+}
+
+section.section_history .valores {
+  margin-left: 90px;
+}
+
+section.section_history .valores h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin: 0 auto;
+  opacity: 80%;
+}
+
+section.section_history .valores h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(8, 8, 8);
+  margin: 15px 0 15px 0;
+  
+}
+
+section.section_history .valores p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: normal;
+}
+
+section.section_history img {
+  padding: 40px 0;
+}
+
+/* Page PRODUTOS */
+
+section.section_products {
+  width: 100%;
+  padding: 40px;
+}
+
+section.section_products .firts h3 {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -56px;
+
+}
+
+.produto-item {
+  background: black;
+  padding: 70px;
+}
